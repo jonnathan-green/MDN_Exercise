@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de adivinanzas de números</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <h1>Juego de adivinanzas de números</h1>
+
+    <p>Hemos seleccionado un número aleatorio entre 1 y 100. Vea si puede adivinarlo en 10 turnos o menos. Le diremos si su conjetura fue demasiado alta o demasiado baja.</p>
+
+    <div class="form">
+      <label for="textoAdivinanza">Dale enter a tu adivinanza: </label><input type="text" id="campoAdivinanzas" class="campoAdivinanzas">
+      <input type="submit" value="Enviar Adivinanza" class="enviarAdivinanza">
+    </div>
+
+    <div class="contenedorResultado">
+      <p class="intentos"></p>
+      <p class="pistas"></p>
+      <p class="respuesta"></p>
+    </div>
+  </body>
+  <script src="adivina.js"></script>
+</html>
